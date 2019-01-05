@@ -1,0 +1,6 @@
+b = 'cookie'
+cookies = {}
+for line in b.split(';'):
+    key, value = line.split('=', 1)
+    cookies[key] = value
+print(cookies)
